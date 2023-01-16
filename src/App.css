@@ -55,13 +55,13 @@ h1, h2, h3, h4, h5, p, input, svg, button {
 }
 
 .instructions {
-    font-size: 0.8em;
+    font-size: 0.9em;
     padding: 20px 0px;
     margin: 0;
 }
 
 .command {
-    font-size: 0.8em;
+    font-size: 0.9em;
     cursor: pointer;
 }
 
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, p, input, svg, button {
 }
 
 .app-title h1 {
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: normal;
 }
 
@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, p, input, svg, button {
 }
 
 .exercices-list h2 {
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: normal;
     margin: 0px;
 }
@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, p, input, svg, button {
 }
 
 .exercice-title h3 {
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 500;
     margin: 0px;
     text-align: end;
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, p, input, svg, button {
 }
 
 .nav-title {
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 500;
     margin: 0px;
     text-align: start;
@@ -263,10 +263,10 @@ h1, h2, h3, h4, h5, p, input, svg, button {
 }
 
 .full-list-exercice .fanfares-list-section h3 {
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-weight: 500;
     margin: 5px;
-    line-height: 1em;
+    line-height: 1.02em;
 }
 
 .full-list-exercice .fanfares-list {
@@ -327,7 +327,7 @@ h1, h2, h3, h4, h5, p, input, svg, button {
 
 .full-list-exercice .play {
     position: absolute;
-    bottom: 30px;
+    bottom: 10px;
     right: calc((100vw / 2) - 20px);
     width: 20px;
     height: 20px;
