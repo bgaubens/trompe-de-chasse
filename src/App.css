@@ -1,38 +1,340 @@
-.App {
-  text-align: center;
+/* General styling */
+
+html, body {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    max-width: 400px;
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 auto;
+    background-color: #011900;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#root,
+.app,
+.exercices,
+.full-list-exercice,
+.fanfares-list,
+.exercices,
+.fanfares-list-section {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.fanfares-list-section {
+    justify-content: space-between;
+    height: 100%;
+    padding-bottom: 20px;
+}
+ 
+*::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
 }
 
-.App-link {
-  color: #61dafb;
+* {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1, h2, h3, h4, h5, p, input, svg, button {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+.instructions {
+    font-size: 0.8em;
+    padding: 20px 0px;
+    margin: 0;
+}
+
+.command {
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+/* - Title component styling */
+
+.app-title {
+    margin: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #73704D;
+}
+
+.app-title h1 {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+/* - Exercices component styling */
+
+.exercices-list {
+    margin: 0px 25px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+.exercices-list h2 {
+    font-size: 0.8em;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.exercice {
+    position: relative;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.exercice-title {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 8px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.exercice-title .nav-icon {
+    margin-left: 10px;
+}
+
+.exercice-title h3 {
+    font-size: 1em;
+    font-weight: 500;
+    margin: 0px;
+    text-align: end;
+}
+
+.exercice img {
+    width: 100%;
+    height: auto;
+}
+
+.nav-icon {
+    width: 10px;
+    height: 10px;
+    background-color: #FCC300;
+    color: #011900;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+.nav-title {
+    font-size: 1em;
+    font-weight: 500;
+    margin: 0px;
+    text-align: start;
+}
+
+.back-to-menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    width: min-content;
+}
+
+.back-to-menu .nav-icon {
+    margin-right: 10px;
+}
+
+/* - Fanfares full list exercices component styling */
+
+.full-list-exercice {
+    height: 100%;
+    width: 100%;
+}
+
+/* -- Back to Menu Navigation styling */
+
+.full-list-exercice .back-to-menu {
+    margin: 30px 25px;
+}
+
+/* -- Searchbar styling */
+
+.full-list-exercice .searchbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #73704D;
+    border-radius: 10px;
+    margin: 0px 25px;
+}
+
+.full-list-exercice .searchbar.hidden {
+    display: none;
+}
+
+.full-list-exercice .searchbar-icon {
+    margin: 10px;
+}
+
+.full-list-exercice .searchbar-icon.delete {
+    cursor: pointer;
+}
+
+.full-list-exercice input {
+    background: none;
+    border: none;
+    color: #fff;
+    width: 100%;
+}
+
+.full-list-exercice input::placeholder {
+    color: #fff;
+}
+
+.full-list-exercice input:focus {
+    outline: none;
+}
+
+/* -- Instructions styling */
+
+.full-list-exercice .instructions {
+    border-bottom: 1px solid #73704D;
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 0px 25px;
+}
+
+/* -- Sort command styling */
+
+.full-list-exercice .sort-alphabetical {
+    text-align: start;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    cursor: pointer;
+    width: max-content;
+    margin: 15px 25px 0px 25px;
+}
+
+.full-list-exercice .sort-alphabetical.hidden {
+    display: none;
+}
+
+/* -- Fanfare item styling */
+
+.full-list-exercice .fanfare {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    border: 1px solid #73704D;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0px;
+    line-height: 95%;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.full-list-exercice .fanfare.minimized {
+    height: max-content;
+    overflow-y:visible;
+}
+
+.full-list-exercice .fanfare.hidden {
+    display: none;
+}
+
+.full-list-exercice .fanfares-list-section {
+    background-image: url('./medias/images/horn-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.full-list-exercice .fanfares-list-section h3 {
+    font-size: 1.1em;
+    font-weight: 500;
+    margin: 5px;
+    line-height: 1em;
+}
+
+.full-list-exercice .fanfares-list {
+    margin: 0px 25px;
+}
+
+.full-list-exercice .fanfare-navigation {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.full-list-exercice .fanfare-content {
+    font-size: 0.9em;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+}
+
+.full-list-exercice .fanfare-content.hidden {
+    display: none;
+}
+
+.full-list-exercice .fanfare-type {
+    margin: 10px 0px;
+}
+
+.full-list-exercice .tabs {
+    margin: 5px 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+}
+
+.full-list-exercice .tabs button {
+    width: 25%;
+    min-width: 75px;
+    padding: 2px 4px;
+    border: none;
+    border-radius: 20px;
+    background-color: #FCC300;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.full-list-exercice .fanfare-lyrics {
+    margin: 10px 0px;
+    overflow: scroll;
+}
+
+.full-list-exercice p.fanfare-lyrics {
+    white-space: pre-line;
+    margin-bottom: 50px;
+}
+
+.full-list-exercice .play {
+    position: absolute;
+    bottom: 30px;
+    right: calc((100vw / 2) - 20px);
+    width: 20px;
+    height: 20px;
+    background-color: #FCC300;
+    color: #011900;
+    padding: 10px;
+    border-radius: 100%;
+    margin: 10px auto;
+    cursor: pointer;
 }
