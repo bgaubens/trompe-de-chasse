@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/trompe-de-chasse/static/css/main.7aa7454a.css",
-    "main.js": "/trompe-de-chasse/static/js/main.b1416c2f.js",
+    "main.js": "/trompe-de-chasse/static/js/main.2b387883.js",
     "static/media/la-saint-hubert.mp3": "/trompe-de-chasse/static/media/la-saint-hubert.ad9db7f1ba103bce98cc.mp3",
     "static/media/la-laie.mp3": "/trompe-de-chasse/static/media/la-laie.2148f0c0ac96f78bba7e.mp3",
     "static/media/la-tête-bizarde.mp3": "/trompe-de-chasse/static/media/la-tête-bizarde.2051afefdb7cb33c596a.mp3",
@@ -13,6 +13,7 @@
     "static/media/la-retraite-prise.mp3": "/trompe-de-chasse/static/media/la-retraite-prise.314b7508e91a86ca838e.mp3",
     "static/media/la-vue.mp3": "/trompe-de-chasse/static/media/la-vue.a2aa1c8fd1f9ce8705f7.mp3",
     "static/media/la-sortie-du-chenil.mp3": "/trompe-de-chasse/static/media/la-sortie-du-chenil.f8c2e57a2ec0e16bf504.mp3",
+    "static/media/le-10-cors-jeunement.mp3": "/trompe-de-chasse/static/media/le-10-cors-jeunement.77f287e7feaaf6879a8c.mp3",
     "static/media/horn-background.png": "/trompe-de-chasse/static/media/horn-background.8961141dddf050c3db93.png",
     "static/media/la-sortie-de-leau.mp3": "/trompe-de-chasse/static/media/la-sortie-de-leau.5fb18b185ec8c48f8d07.mp3",
     "static/media/boar.png": "/trompe-de-chasse/static/media/boar.21efb0e5f24f20085d9e.png",
@@ -21,10 +22,10 @@
     "static/media/horn.png": "/trompe-de-chasse/static/media/horn.c143b26a4da68df8b190.png",
     "index.html": "/trompe-de-chasse/index.html",
     "main.7aa7454a.css.map": "/trompe-de-chasse/static/css/main.7aa7454a.css.map",
-    "main.b1416c2f.js.map": "/trompe-de-chasse/static/js/main.b1416c2f.js.map"
+    "main.2b387883.js.map": "/trompe-de-chasse/static/js/main.2b387883.js.map"
   },
   "entrypoints": [
     "static/css/main.7aa7454a.css",
-    "static/js/main.b1416c2f.js"
+    "static/js/main.2b387883.js"
   ]
 }
