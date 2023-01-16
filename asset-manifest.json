@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/trompe-de-chasse/static/css/main.0cdaf35c.css",
+    "main.css": "/trompe-de-chasse/static/css/main.cc7d9215.css",
     "main.js": "/trompe-de-chasse/static/js/main.2f2ad2ac.js",
     "static/media/la-laie.mp3": "/trompe-de-chasse/static/media/la-laie.2148f0c0ac96f78bba7e.mp3",
     "static/media/la-marche-de-vènerie.mp3": "/trompe-de-chasse/static/media/la-marche-de-vènerie.d9cdffa1143ce4e8231f.mp3",
@@ -14,11 +14,11 @@
     "static/media/equipage.png": "/trompe-de-chasse/static/media/equipage.eaca352278ba6b7c811b.png",
     "static/media/horn.png": "/trompe-de-chasse/static/media/horn.c143b26a4da68df8b190.png",
     "index.html": "/trompe-de-chasse/index.html",
-    "main.0cdaf35c.css.map": "/trompe-de-chasse/static/css/main.0cdaf35c.css.map",
+    "main.cc7d9215.css.map": "/trompe-de-chasse/static/css/main.cc7d9215.css.map",
     "main.2f2ad2ac.js.map": "/trompe-de-chasse/static/js/main.2f2ad2ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cdaf35c.css",
+    "static/css/main.cc7d9215.css",
     "static/js/main.2f2ad2ac.js"
   ]
 }
