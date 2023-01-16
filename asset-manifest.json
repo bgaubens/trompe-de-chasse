@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8571a771.css",
+    "main.js": "/static/js/main.578ff663.js",
+    "static/media/la-laie.mp3": "/static/media/la-laie.2148f0c0ac96f78bba7e.mp3",
+    "static/media/la-marche-de-vènerie.mp3": "/static/media/la-marche-de-vènerie.d9cdffa1143ce4e8231f.mp3",
+    "static/media/la-retraite-de-grâce.mp3": "/static/media/la-retraite-de-grâce.8b2850ecad7f73d8d584.mp3",
+    "static/media/la-rentrée-au-chenil.mp3": "/static/media/la-rentrée-au-chenil.68f1b2252c5571ccf401.mp3",
+    "static/media/la-retraite-manquée.mp3": "/static/media/la-retraite-manquée.8d907282425c67a52b6c.mp3",
+    "static/media/la-retraite-prise.mp3": "/static/media/la-retraite-prise.314b7508e91a86ca838e.mp3",
+    "static/media/horn-background.png": "/static/media/horn-background.8961141dddf050c3db93.png",
+    "static/media/boar.png": "/static/media/boar.21efb0e5f24f20085d9e.png",
+    "static/media/deer.png": "/static/media/deer.bca575e354e96cfeec5b.png",
+    "static/media/equipage.png": "/static/media/equipage.eaca352278ba6b7c811b.png",
+    "static/media/horn.png": "/static/media/horn.c143b26a4da68df8b190.png",
+    "index.html": "/index.html",
+    "main.8571a771.css.map": "/static/css/main.8571a771.css.map",
+    "main.578ff663.js.map": "/static/js/main.578ff663.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8571a771.css",
+    "static/js/main.578ff663.js"
+  ]
+}
