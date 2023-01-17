@@ -127,8 +127,8 @@ h1, h2, h3, h4, h5, p, input, svg, button {
 }
 
 .nav-icon {
-    width: 10px;
-    height: 10px;
+    width: 13px;
+    height: 13px;
     background-color: #FCC300;
     color: #011900;
     padding: 5px;
@@ -327,13 +327,13 @@ h1, h2, h3, h4, h5, p, input, svg, button {
 
 .full-list-exercice .play {
     position: absolute;
-    bottom: 10px;
-    right: calc((100vw / 2) - 20px);
-    width: 20px;
-    height: 20px;
+    bottom: 2%;
+    right: calc((100vw / 2) - (52px/2));
+    width: 30px;
+    height: 30px;
     background-color: #FCC300;
     color: #011900;
-    padding: 10px;
+    padding: 11px;
     border-radius: 100%;
     margin: 10px auto;
     cursor: pointer;

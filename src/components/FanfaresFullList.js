@@ -13,7 +13,7 @@ function dynamicSort(property) {
         property = property.substr(1);
     }
     return function (a, b) {
-        var result = (a[property] < b[property]) ? -1 : (a[property] > b[property]) ? 1 : 0;
+        var result = (a[property].toLowerCase() < b[property].toLowerCase()) ? -1 : (a[property].toLowerCase() > b[property].toLowerCase()) ? 1 : 0;
         return result * sortOrder;
     }
 }
@@ -49,7 +49,7 @@ function filterFanfare(term, arr) {
   }
 
   const handleAlphabeticalSort = () => {
-    let fanfaresCopy = JSON.parse(JSON.stringify(fanfares))
+    let fanfaresCopy = fanfares.slice();
     if (activeSort === 'alphabetical') {
       setActiveSort('-alphabetical')
       setFanfares(fanfaresCopy.sort(dynamicSort('-name')))
@@ -61,7 +61,8 @@ function filterFanfare(term, arr) {
 
   const handleSearch = (e) => {
     setSearchTerm(e)
-    let fanfaresCopy = JSON.parse(JSON.stringify(fanfaresList))
+    let fanfaresCopy = fanfares.slice();
+    console.log(fanfaresCopy)
       if (activeSort === 'alphabetical') {
         setFanfares(filterFanfare(e, fanfaresCopy).sort(dynamicSort('name')))
       } else {
@@ -71,7 +72,7 @@ function filterFanfare(term, arr) {
 
   const handleDeleteSearch = () => {
     setSearchTerm('')
-    let fanfaresCopy = JSON.parse(JSON.stringify(fanfaresList))
+    let fanfaresCopy = fanfaresList.slice();
       if (activeSort === 'alphabetical') {
         setFanfares(fanfaresCopy.sort(dynamicSort('name')))
       } else {
