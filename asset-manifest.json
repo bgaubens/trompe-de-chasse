@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/trompe-de-chasse/static/css/main.7aa7454a.css",
-    "main.js": "/trompe-de-chasse/static/js/main.bcb10e2a.js",
+    "main.js": "/trompe-de-chasse/static/js/main.d582a5a1.js",
     "static/media/la-saint-hubert.mp3": "/trompe-de-chasse/static/media/la-saint-hubert.ad9db7f1ba103bce98cc.mp3",
     "static/media/la-laie.mp3": "/trompe-de-chasse/static/media/la-laie.2148f0c0ac96f78bba7e.mp3",
     "static/media/la-tête-bizarde.mp3": "/trompe-de-chasse/static/media/la-tête-bizarde.2051afefdb7cb33c596a.mp3",
@@ -22,10 +22,10 @@
     "static/media/horn.png": "/trompe-de-chasse/static/media/horn.c143b26a4da68df8b190.png",
     "index.html": "/trompe-de-chasse/index.html",
     "main.7aa7454a.css.map": "/trompe-de-chasse/static/css/main.7aa7454a.css.map",
-    "main.bcb10e2a.js.map": "/trompe-de-chasse/static/js/main.bcb10e2a.js.map"
+    "main.d582a5a1.js.map": "/trompe-de-chasse/static/js/main.d582a5a1.js.map"
   },
   "entrypoints": [
     "static/css/main.7aa7454a.css",
-    "static/js/main.bcb10e2a.js"
+    "static/js/main.d582a5a1.js"
   ]
 }
